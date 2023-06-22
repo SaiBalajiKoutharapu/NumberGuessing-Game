@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Guess number game</title>
+        <link rel="stylesheet" href="numbergame.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <div id="game">
+
+                <h3>I am thinking of a number between 1-100.<br/>
+                can you guess it !</h3>
+
+                <div class="input-wrapper">
+                    <input type="number" placeholder="0" id="guess">
+                    <button id="check-btn">Guess</button>
+                </div>
+
+                <p id="no-of-guesses">No of guesses: 0</p>
+                <p id="guessed-nums">Guessed numbers are : None</p>
+
+                <button id="restart">Restart</button>
+
+                <div class="result">
+                    <div id="hint"></div>
+                </div>
+
+            </div>
+
+        </div>
+        <script src="numbergame.js"></script>
+    </body>
+</html>
